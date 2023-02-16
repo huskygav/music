@@ -1,0 +1,39 @@
+input[type="search"]{
+    border: none;
+    outline: 1px solid rgba(0, 0, 0, 0.377);
+}
+
+.logo-text{
+    font-size: 22px;
+}
+header .nav-link{
+    color: gray;
+}
+header .nav-link:hover{
+    color: rgb(247, 116, 116);
+}
+header .nav-link:active, header .nav-link:focus{
+    color: rgb(247, 206, 116);
+}
+header .nav{
+    gap: 10px;
+}
+header .plus-badge{
+    font-size: 10px;
+    padding: 5px 10px;
+    background: linear-gradient(101.67deg, #48cce0 7.24%, #505add 34.12%, #be40c0 62.93%, #fba82b 92.22%);
+}
+header .rounded-circle{
+    border: 4px solid radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+main .card-img-top{
+    object-fit: cover;
+}
+.albums .card:hover{
+    outline: 4px solid #ffdb4d;
+    cursor: pointer;
+    transition: 100ms;
+}
+.albums a{
+    color: gray;
+}
